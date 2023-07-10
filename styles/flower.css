@@ -159,3 +159,6 @@ main {
   flex-shrink: 0;
   padding: 67px 75px;
 }
+.fig-cation {
+  display: flex;
+}
