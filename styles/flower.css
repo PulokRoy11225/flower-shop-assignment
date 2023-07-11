@@ -195,25 +195,26 @@ main {
 }
 
 .logos-des {
+  margin-top: 100px;
+  /* display: flex; */
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
 }
 
 .logo-container {
-  /* display: flex; */
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  /* margin-top: 100px; */
   color: rgba(39, 39, 39, 0.80);
-  /* text-align: center; */
   font-family: Lato;
   font-size: 24px;
   font-weight: 600;
   line-height: 35px;
-  flex-direction: row;
-  justify-content: space-evenly;
 }
 
-.logo-sec {}
-
 .hot-deal-sec5 {
+  margin-top: 70px;
   padding: 50px;
   display: flex;
   border-radius: 8px;
