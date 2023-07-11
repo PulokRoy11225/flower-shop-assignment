@@ -1,3 +1,8 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -28,11 +33,11 @@ body {
   font-weight: 500px;
 }
 
-nav {
+/* nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
 .banner {
   padding: 20px 20px 0px 80px;
@@ -104,6 +109,15 @@ main {
   margin-top: 10px;
 }
 
+.all-pink-trees {
+  background: #FFF;
+  width: 400px;
+  height: 400px;
+  padding-left: 240px;
+  padding-right: 240px;
+  padding-bottom: 10px;
+}
+
 .flower-trees {
   display: flex;
   justify-content: space-evenly;
@@ -125,7 +139,7 @@ main {
   width: 310px;
   height: 428px;
   flex-shrink: 0;
-  padding: 110px 78px 67px 76px;
+  padding: 110px 78px 0px 76px;
 }
 
 .pink-flower-tree2 {
@@ -158,20 +172,141 @@ main {
   width: 314px;
   height: 471px;
   flex-shrink: 0;
-  padding: 67px 75px;
+  padding: 67px 75px 0px 75px;
+  padding-bottom: 0px;
 }
 
-.fig-cation {
+/* .fig-cation {
   display: flex;
-}
+} */
 
 .pink-flt {
   color: #272727;
   text-align: center;
   font-family: Lato;
   font-size: 24px;
-  font-style: normal;
   font-weight: 700;
   line-height: 35px;
   text-decoration-line: underline;
+}
+
+.logos-des {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+}
+
+.logo-container {
+  /* display: flex; */
+  color: rgba(39, 39, 39, 0.80);
+  /* text-align: center; */
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.logo-sec {}
+
+.hot-deal-sec5 {
+  padding: 50px;
+  display: flex;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  align-items: center;
+  justify-content: center;
+  gap: 215px;
+  text-align: center;
+}
+
+.heading-of-hot {
+  padding: 230px 962px 342px 423px;
+}
+
+.hot-del-des {
+  display: flex;
+  width: 594px;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding: 302px 933px 258px 395px;
+}
+
+.ig-section {}
+
+.four-images {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.latest-deals {
+  background-image: url("./Rectangle\ 9.png");
+  background-position: center;
+  align-items: center;
+  margin-top: 80px;
+  width: 1440px;
+  height: 449px;
+  border-radius: 8px;
+  display: flex;
+  /* margin-right: 100px; */
+  justify-content: center;
+  flex-direction: column;
+  /* padding-right: 120px; */
+}
+
+.latest-para {
+  margin-top: 30px;
+}
+
+.latest {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.input {
+  padding: 30px;
+  width: 700px;
+  height: 64px;
+  flex-shrink: 0;
+  margin-top: 50px;
+  margin-bottom: 121px;
+}
+
+.footsec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text-pri {
+  color: #ffffff;
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 800;
+  padding-right: 120px;
+}
+
+.footsec {
+  background-color: black;
+  width: 1922px;
+  height: 449px;
+  flex-shrink: 0;
+  margin-top: 100px;
+}
+
+.footdes {
+  color: #FFF;
+  max-width: 500px;
+  margin-top: 20px;
+  padding-right: 120px;
+}
+
+.footcopy {
+  color: gray;
+  margin-top: 20px;
+  padding-right: 120px;
 }
