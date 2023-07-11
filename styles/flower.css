@@ -118,6 +118,7 @@ main {
   background: rgba(167, 33, 98, 0.15);
   margin-right: 24px;
   /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+  /* margin-bottom: 0px; */
 }
 
 .tree-no1 {
@@ -159,6 +160,18 @@ main {
   flex-shrink: 0;
   padding: 67px 75px;
 }
+
 .fig-cation {
   display: flex;
+}
+
+.pink-flt {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
 }
