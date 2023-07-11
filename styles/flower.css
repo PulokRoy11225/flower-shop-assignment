@@ -201,6 +201,10 @@ main {
   background: rgba(39, 39, 39, 0.05);
 }
 
+.logo-image{
+  justify-content: center;
+}
+
 .logo-container {
   display: flex;
   gap: 20px;
@@ -208,9 +212,9 @@ main {
   /* margin-top: 100px; */
   color: rgba(39, 39, 39, 0.80);
   font-family: Lato;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 600;
-  line-height: 35px;
+  line-height: 50px;
 }
 
 .hot-deal-sec5 {
@@ -253,7 +257,7 @@ main {
   margin-top: 80px;
   width: 1440px;
   height: 449px;
-  border-radius: 8px;
+  border-radius: 0px;
   display: flex;
   /* margin-right: 100px; */
   justify-content: center;
@@ -266,6 +270,7 @@ main {
 }
 
 .latest {
+  align-items: center;
   margin-top: 200px;
   text-align: center;
 }
@@ -273,10 +278,10 @@ main {
 .input {
   padding: 30px;
   width: 700px;
-  height: 64px;
+  height: 20px;
   flex-shrink: 0;
   margin-top: 50px;
-  margin-bottom: 121px;
+  margin-bottom: 130px;
 }
 
 .footsec {
